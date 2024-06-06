@@ -57,7 +57,7 @@ body{
 
 .main_divc {
     display: flex;
-    
+    height: 1500px;
     
 }
 
@@ -126,7 +126,7 @@ body{
 @media (max-width: 500px) {
     .maincon .div1 {
         background-color: hsl(31, 77%, 52%);
-        height: 340px;
+        height: 360px;
         padding: 40px 0 25px 40px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -204,7 +204,7 @@ body{
 @media (max-width: 500px) {
     .maincon .div2 {
         background-color: hsl(184, 100%, 22%);
-        height: 340px;
+        height: 360px;
         padding: 40px 0 25px 40px;
         max-width: 300px;
     }
@@ -282,7 +282,7 @@ body{
 @media (max-width: 500px) {
     .maincon .div3 {
         background-color: hsl(179, 100%, 13%);
-        height: 340px;
+        height: 360px;
         padding: 40px 0 25px 40px;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
