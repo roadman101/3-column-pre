@@ -130,6 +130,7 @@ body{
         padding: 40px 0 25px 40px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
         max-width: 300px;
     }
 
@@ -287,6 +288,7 @@ body{
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         max-width: 300px;
+        border-top-right-radius: 0;
     }
 
     .maincon .div3 h1 {
