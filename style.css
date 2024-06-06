@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    /* ### Primary */
+
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* ### Neutral */
+
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+body{
+    max-width: 1440px;
+}
+
+@media (max-width: 500px) {
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+
+    body {
+        max-width: 500px;
+    }
+}
+
+.maincon {
+    width: 825px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+@media (max-width: 500px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .maincon {
+        max-width: 375px;
+        flex-direction: column;
+        /* margin: 30px auto; */
+       
+    }
+}
+
+.main_divc {
+    display: flex;
+    
+    
+}
+
+@media (max-width: 500px) {
+
+
+    .main_divc {
+        /* margin: 40px 40px; */
+        /* margin: 0 0; */
+        width: 375px;
+        margin:  0 20px;
+        flex-direction: column;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+}
+
+.maincon .div1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 380px;
+    padding: 40px 40px;
+    max-width: 260px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.maincon .div1 h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    margin: 20px 0;
+    
+}
+
+.maincon .div1 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 100px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        width: 210px;
+
+}
+ 
+.maincon .div1 a {
+    
+    padding: 12px 40px;
+    border-radius: 40px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+}
+
+.maincon .div1 a:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .maincon .div1 {
+        background-color: hsl(31, 77%, 52%);
+        height: 340px;
+        padding: 40px 0 25px 40px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        max-width: 300px;
+    }
+
+    .maincon .div1 h1 {
+        margin: 25px 0;
+    }
+     
+    .maincon .div1 p {
+        width: 230px;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+    }
+
+    .maincon .div1 a {
+        padding: 14px 40px;
+    }
+}
+
+/* ==================================== */
+
+
+.maincon .div2 {
+    background-color: hsl(184, 100%, 22%);
+    height: 380px;
+    padding: 40px 40px;
+    max-width: 260px;
+}
+
+.maincon .div2 h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    margin: 20px 0;
+    
+}
+
+.maincon .div2 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 100px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        width: 210px;
+        
+
+}
+ 
+.maincon .div2 a {
+    
+    padding: 12px 40px;
+    border-radius: 40px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+}
+
+.maincon .div2 a:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .maincon .div2 {
+        background-color: hsl(184, 100%, 22%);
+        height: 340px;
+        padding: 40px 0 25px 40px;
+        max-width: 300px;
+    }
+
+    .maincon .div2 h1 {
+        margin: 25px 0;
+    }
+     
+    .maincon .div2 p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        width: 220px;
+    }
+
+    .maincon .div2 a {
+        padding: 14px 40px;
+    }
+}
+
+
+/* ======================================== */
+
+
+.maincon .div3 {
+    background-color: hsl(179, 100%, 13%);
+    height: 380px;
+    padding: 40px 40px;
+    max-width: 260px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.maincon .div3 h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    margin: 20px 0;
+    
+}
+
+.maincon .div3 p {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 100px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        width: 210px;
+        
+}
+ 
+.maincon .div3 a {
+    
+    padding: 12px 40px;
+    border-radius: 40px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    
+}
+
+.maincon .div3 a:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+@media (max-width: 500px) {
+    .maincon .div3 {
+        background-color: hsl(179, 100%, 13%);
+        height: 340px;
+        padding: 40px 0 25px 40px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        max-width: 300px;
+    }
+
+    .maincon .div3 h1 {
+        margin: 25px 0;
+    }
+     
+    .maincon .div3 p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        width: 225px;
+    }
+
+    .maincon .div3 a {
+        padding: 14px 40px;
+    }
+}
+
